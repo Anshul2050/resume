@@ -1,0 +1,65 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto;
+}
+.left {
+  background-color: rgb(254, 167, 53);
+}
+.right {
+  background-color: #EFDEC5;
+}
+
+.experience {
+  
+  padding-left: 30px;
+}
+.objective {
+  margin-top: 10px;
+  padding: 30px;
+}
+
+.skills {
+  margin-top: 50px;
+  background-color: #EFDEC5(217, 146, 39, 0.647);
+  padding: 10px;
+}
+
+
+.tools{
+   border: 1px solid rgb(98, 88, 70);
+   padding: 10px;
+   margin: 5px;
+   text-align: center;
+   background-color: antiquewhite;
+   
+}
+
+.contactContainer{
+
+    margin-top: 100px;
+    padding: 10px;
+    
+   
+}
+
+.tool-item {
+    display: inline-flex;
+    align-items: center;   /* vertical alignment */
+    gap: 15px;              /* space between icon & text */
+}
+
+
+.c2{
+  margin-top: 50px;
+}
+
+.learning {
+  
+  padding: 30px;
+}
