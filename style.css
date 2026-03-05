@@ -1,8 +1,6 @@
 html, body {
-  margin-left: 100px;
-  margin-right: 100px;
+  margin: 0;
   padding: 0;
-
 }
 
 .container {
@@ -12,11 +10,9 @@ html, body {
 }
 .left {
   background-color: rgb(254, 167, 53);
-  
 }
 .right {
   background-color: #EFDEC5;
- 
 }
 
 .experience {
@@ -61,12 +57,9 @@ html, body {
 
 .c2{
   margin-top: 50px;
-   padding-right: 50px;
 }
-.c1{
-   padding-right: 50px;
-}
+
 .learning {
   
-  padding: 50px;
+  padding: 30px;
 }
